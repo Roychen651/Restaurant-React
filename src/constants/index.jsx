@@ -13,7 +13,7 @@ import italian from "../assets/italian.jpeg";
 import japanese from "../assets/japanese.jpeg";
 import indian from "../assets/indian.jpeg";
 
-import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 export const LINKS = [
   { text: "Dishes", targetId: "dishes" },
@@ -125,15 +125,15 @@ export const CONTACT = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://facebook.com/",
+    href: "https://www.facebook.com/roy.chen97/",
     icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
   },
   {
-    href: "https://instagram.com/",
+    href: "https://www.instagram.com/roychen.97/",
     icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
   },
   {
-    href: "https://twitter.com/",
-    icon: <FaXTwitter fontSize={30} className="hover:opacity-80" />,
+    href: "http://linkedin.com/in/roychen651/",
+    icon: <FaLinkedin fontSize={30} className="hover:opacity-80" />,
   },
 ];
