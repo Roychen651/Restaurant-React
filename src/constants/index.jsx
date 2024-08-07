@@ -118,9 +118,9 @@ export const REVIEW = {
 };
 
 export const CONTACT = [
-  { key: "address", value: "Address: 123 Main Street, Paris, France, 345678" },
-  { key: "phone", value: "Phone: 123-456-7890" },
-  { key: "email", value: "Email: contact@restaura.com" },
+  { key: "address", value: "Address: Begin St, Tel Aviv, Israel" },
+  { key: "phone", value: "Phone: +972 50 881 58 55" },
+  { key: "email", value: "Email: roychen651@gmail.com" },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
