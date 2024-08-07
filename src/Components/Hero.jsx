@@ -1,6 +1,7 @@
 import Video from "../assets/hero.mp4";
-import Logo from "../assets/logo.png";
 import heroImage from "../assets/hero.jpeg";
+import { motion } from "framer-motion";
+import Zenith from "../assets/Zenith.png";
 
 const Hero = () => {
   return (
@@ -17,10 +18,16 @@ const Hero = () => {
         ></video>
       </div>
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from70% to-black"></div>
-      <div className="relative z-20 flex h-screen flex-col justify-end pb-2">
-        <img src={Logo} alt="logo-restaurant" className="w-full p-4" />
-        <p className="p-4 text-lg tracking-tighter text-white">Tel Aviv</p>
-
+      <div className="relative z-20 flex h-screen flex-col justify-end pb-2 items-center">
+        <motion.img
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          src={Zenith}
+          alt="logo-restaurant"
+          className="w-full p-4"
+        />
+        <p className="mt-2 text-lg tracking-tighter text-white">Tel Aviv</p>
       </div>
     </section>
   );

@@ -1,8 +1,27 @@
-# React + Vite
+# 🌟 Zenith & Sons Restaurant Landing Page 🌟
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official repository for Zenith & Sons Restaurant's landing page. This project showcases the elegance and culinary excellence of our modern unique kitchen with Japanese, Italian and Indian expertise. 
 
-Currently, two official plugins are available:
+## 🛠 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast build tool and development server.
+- **Framer Motion**: A powerful library for creating animations.
+
+## ✨ Features
+
+- **Dynamic Hero Section**: A captivating video background with smooth animations.
+- **Responsive Navigation**: Easy access to different sections of the site.
+- **Exquisite Dishes Gallery**: A showcase of our signature dishes with detailed descriptions.
+- **Mission Statement**: Highlighting our commitment to exceptional dining experiences.
+- **Expertise Section**: Showcasing our culinary specialties from various cuisines.
+- **Contact Us**: Simple and direct way to reach out to us, including a "Talk With Us" button that opens WhatsApp with a pre-filled message.
+
+## 🚀 Live Preview
+
+Check out the live preview of our landing page [here](https://zenith-and-sons.netlify.app).
+
+
+
+Thank you for visiting Zenith & Sons! We look forward to serving you the finest Asian and Japanese cuisine.
+

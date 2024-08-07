@@ -111,14 +111,14 @@ export const CUISINES = [
 ];
 
 export const REVIEW = {
-  name: "Xaviour Fernando",
+  name: "Roy Chen",
   profession: "Food Critic",
   content:
     "“As a seasoned food critic, my expectations are always high when stepping into a new dining establishment. Restaura, with its unassuming exterior and elegantly designed interior, promised a unique culinary experience from the moment I walked in. And I must say, it delivered beyond my expectations.”",
 };
 
 export const CONTACT = [
-  { key: "address", value: "Address: Begin St, Tel Aviv, Israel" },
+  { key: "address", value: "Address: Begin St 102, Tel Aviv, Israel" },
   { key: "phone", value: "Phone: +972 50 881 58 55" },
   { key: "email", value: "Email: roychen651@gmail.com" },
 ];
