@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar'
 import Dishes from './Components/Dishes'
 import About from './Components/About'
 import Mission from './Components/Mission'
+import Expertise from './Components/Expertise'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Dishes />
       <About />
       <Mission />
+      <Expertise />
       
     </main>
   )
